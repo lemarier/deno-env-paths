@@ -5,7 +5,7 @@ Get paths for storing things like data, config, cache, etc
 [![Test CI](https://github.com/lemarier/deno-env-paths/workflows/Test%20CI/badge.svg)](https://github.com//lemarier/deno-env-paths/actions)
 
 ```ts
-import envPaths from "https://raw.githubusercontent.com/lemarier/deno-env-paths/master/mod.ts";
+import envPaths from "https://deno.land/x/env_paths/mod.ts";
 
 const paths = envPaths("MyApp");
 
